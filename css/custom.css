@@ -1,1 +1,73 @@
-body {background-color: aquamarine;}
+body {background-color: blue;}
+    main{
+        display: inline-block;
+        width: 800px;
+        margin-top: 100px;
+        margin-left: calc(50% - 400px);
+    }
+        .left-column {display: inline-block;
+        float: left;
+        width: 40%;
+    background-color: lightblue;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+    .h1 {display: inline-block;}
+   
+    footer {display: inline-block;}
+        
+    footer > a {display: inline-block;}
+       
+    footer > span {display: inline-block;}
+        
+        
+        .right-column {
+            display: block;
+            float: left;
+            width: 60%;
+            padding: 60px;
+            background-color:paleturquoise;}
+
+        .close{ 
+            display: inline-block;
+            float: right;}
+            
+        .form {width: 100%;
+            display: inline-block;
+            float: left;}
+            
+        
+        .form-row {margin-top: 5px;
+            display: inline-block;
+            float: left;}
+           
+        label {margin-top: 5px;
+            display: inline-block;
+            float: left;
+            text-transform: uppercase;}
+            
+        input {margin-top: 5px;
+            display: inline-block;
+            float: left;}
+        
+        .btn { 
+            display: inline-block;
+            padding: 5px;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-family: Arial;
+            width: 150px;
+            border-radius: 20px;
+            background-color: darkblue;
+            color:white;}
+
+        .form-row > span {
+            display: inline-block;
+            margin-top: 5px;}
+        
+        .form-row > a {
+            display: inline-block;
+            margin-top: 5px;}
+
